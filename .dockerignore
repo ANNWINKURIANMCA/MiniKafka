@@ -1,0 +1,8 @@
+out
+.git
+.github
+.vscode
+.idea
+*.class
+data
+README.md

@@ -1,0 +1,15 @@
+services:
+
+  broker:
+
+    build: .
+
+    container_name: minikafka
+
+    ports:
+      - "9092:9092"
+
+    volumes:
+      - ./data:/app/data
+
+    restart: unless-stopped
